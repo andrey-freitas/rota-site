@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Excluir conta — Rota do Engenheiro</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fundo: #fafafa;
+    --cartao: #ffffff;
+    --texto: #24262b;
+    --texto-2: #5a5d66;
+    --fio: #e3e4e8;
+    --acento: #6d4ba1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #22242a;
+      --cartao: #2c2e35;
+      --texto: #e8eaed;
+      --texto-2: #b9b0c9;
+      --fio: #373940;
+      --acento: #af81e8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px 16px calc(48px + env(safe-area-inset-bottom, 0px));
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 16px; text-wrap: balance; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  ol { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  strong { font-weight: 600; }
+  .quadro {
+    background: var(--cartao);
+    border: 1px solid var(--fio);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 0 0 12px;
+  }
+  .aviso { border-left: 3px solid var(--acento); }
+  a { color: var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Excluir a conta do Rota do Engenheiro</h1>
+
+  <p>A exclusão apaga a sua conta e os dados vinculados a ela, como descreve
+  a <a href="/politica-de-privacidade">Política de Privacidade</a>. Há dois
+  caminhos:</p>
+
+  <h2>1. Pelo aplicativo (imediato)</h2>
+  <ol>
+    <li>Abra o aplicativo e entre na sua conta;</li>
+    <li>Toque em <strong>Conta</strong> (menu superior);</li>
+    <li>Role até <strong>Excluir conta</strong>;</li>
+    <li>Confirme a exclusão.</li>
+  </ol>
+  <p>A conta e os dados são removidos do banco de dados após a conclusão da
+  solicitação; a foto de perfil e os dados no processador de assinaturas são
+  removidos em seguida, por rotinas automáticas.</p>
+
+  <h2>2. Sem acesso ao aplicativo</h2>
+  <p>Escreva para
+  <strong>privacidade@rotadoengenheiro.com.br</strong>, de preferência a
+  partir do e-mail cadastrado na conta, pedindo a exclusão. Vamos confirmar
+  que a conta é sua, concluir a exclusão e responder confirmando.</p>
+
+  <div class="quadro aviso">
+    <p style="margin:0"><strong>Assinatura PRO:</strong> excluir a conta
+    <strong>não cancela</strong> uma assinatura ativa na loja. Cancele antes
+    na App Store ou no Google Play, nas configurações de assinaturas do seu
+    aparelho.</p>
+  </div>
+
+  <h2>O que é excluído</h2>
+  <p>Conta, perfil (nome e foto), dados de estudo (respostas, resultados,
+  filtros salvos, flashcards) e a situação da assinatura. Registros técnicos
+  e cópias de segurança expiram conforme as políticas de retenção descritas
+  na Política de Privacidade.</p>
+</main>
+</body>
+</html>
